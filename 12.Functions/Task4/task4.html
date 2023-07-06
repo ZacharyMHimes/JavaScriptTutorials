@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <script>
+        'use strict';
+        let x = prompt("Please Enter an Integer", "1");
+        let n = prompt("Please Enter an Exponent", "4")
+
+        function powerOf(x,n)
+        {
+            let a = 1
+            let b = x
+            for (a<n; b = b * x; a++)
+                {
+                    return b;
+                }
+            
+        }
+        
+        alert(powerOf(x,n));
+    </script>
+
+</body>
+</html>
