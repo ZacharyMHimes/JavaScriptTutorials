@@ -1,0 +1,74 @@
+/* CSS styles */
+
+/* Set the font family, margin, padding, and background color for the whole page */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #160f1a;
+    color: #ffffff;
+    }
+  
+  /* Style the header section */
+header {
+    background-color: #422040;
+    padding: 40px;
+    text-align: center;
+    }
+  
+header h1 {
+    margin-top: 0;
+    font-size: 40px;
+    }
+  
+header p {
+    font-size: 18px;
+    margin-bottom: 0;
+    }
+  
+  /* Style the navigation bar */
+.navbar {
+    background-color: #422040;
+    padding: 10px;
+    text-align: right;
+    }
+  
+  /* Style the navigation links */
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 10px;
+    font-size: 16px;
+    }
+  
+  /* Style the main content container */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #2b2130;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+  
+.container h2 {
+    color: #ffffff;
+    }
+  
+.container p {
+    line-height: 1.5;
+    }
+  
+.container ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #ffffff;
+    }
+  
+.container ul li {
+    margin-bottom: 10px;
+    }
+  
+.container ul li strong {
+    color: #a378a2;
+    }
+  
